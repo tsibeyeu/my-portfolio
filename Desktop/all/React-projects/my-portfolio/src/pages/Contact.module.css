@@ -1,0 +1,115 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10rem;
+  margin-right: 40rem;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+.contact > h1 {
+  margin-top: 5rem;
+  margin-bottom: 2.5rem;
+  font-size: 5rem;
+  background: linear-gradient(rgba(0, 82, 115, 0.161), rgb(74, 144, 198));
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 2rem;
+}
+.form input {
+  display: block;
+  width: 100%;
+  padding: 1.5rem 1.5rem 1.5rem 0.5rem;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  border-radius: 3px;
+  border-bottom: 3px solid transparent;
+}
+.form textarea {
+  display: block;
+  width: 100%;
+  padding: 2rem 2rem 2rem 0.5rem;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  background-color: white;
+  border-radius: 3px;
+  border-bottom: 3px solid transparent;
+}
+.form label {
+  font-size: 2rem;
+}
+.form input:focus {
+    outline: none;
+    box-shadow: 1rem 2rem 3rem rgba(0, 0, 0, 0.2);
+    border-bottom: 3px solid rgba(126, 213, 111, 0.7568627451);
+  }
+.form textarea:focus {
+    outline: none;
+    box-shadow: 1rem 2rem 3rem rgba(0, 0, 0, 0.2);
+    border-bottom: 3px solid rgba(126, 213, 111, 0.7568627451);
+  }
+.form input:focus:invalid {
+  border-bottom: 3px solid #ff7730;
+}
+.form input::-webkit-input-placeholder {
+    color: #999;
+  }
+.form textarea::-webkit-input-placeholder {
+    color: #999;
+  }
+.btn,
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 1.5rem 3rem;
+  margin-top: 1rem;
+  border-radius: 10rem;
+  transition: all 0.2s;
+  position: relative;
+  font-size: 1.6rem;
+  cursor: pointer;
+  border: none;
+  background-color: rgba(85, 163, 197, 0.416);
+  color: #fff;
+}
+
+.btn:hover {
+  transform: translateY(-0.3rem);
+}
+.btn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  border-radius: 10rem;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.4s;
+  z-index: -1;
+  background-color: rgba(85, 171, 197, 0.405);
+}
+
+.btn:active,
+.btn:focus {
+  outline: none;
+  transform: translateY(-0.1rem);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}

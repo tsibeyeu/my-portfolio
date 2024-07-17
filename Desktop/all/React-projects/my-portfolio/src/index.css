@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: 400;
+  
+
+  /* background-color: rgb(51 65 85 / 1); */
+  background-color: rgb(243 244 246 / 1);
+}
+.blur{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    filter: blur(123px);
+    width: 50rem;
+    height: 30rem;
+    z-index: -2;
+    border-radius: 50%;
+    background-color: rgb(21, 37, 214);
+
+}
+
+/* @keyframes bounce {
+    0%, 100% {
+        transform: translateY(-25%);
+        animation-timing-function: cubic-bezier(0.8,0,1,1);
+    }
+    50% {
+        transform: none;
+        animation-timing-function: cubic-bezier(0,0,0.2,1);
+    }
+}
+.animate-bounce {
+    animation: bounce 1s infinite;
+    width: 50rem;
+   
+    color: aquamarine;
+    text-align: center;
+    
+    margin-top: 4rem;
+} */
