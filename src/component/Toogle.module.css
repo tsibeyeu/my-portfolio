@@ -1,0 +1,25 @@
+.toogle{
+    display:flex;
+    margin-top: -1rem;
+    justify-content: space-between;
+    border: 3px solid rgb(0, 179, 255);
+    border-radius: 10rem;
+    padding: 0.5rem ;
+    position: relative;
+    cursor: pointer;
+}
+.toogle>*{
+    width: 1.5rem;
+    height: 1.1rem;
+    color: orange;
+}
+.button{
+    background: rgb(0, 191, 255);
+    width: 2rem;
+    height: 100%;
+    margin-top: -0.5rem;
+    margin-right: -0.2rem;
+    margin-left: -0.2rem;
+    border-radius: 50%;
+    position: absolute;
+}
