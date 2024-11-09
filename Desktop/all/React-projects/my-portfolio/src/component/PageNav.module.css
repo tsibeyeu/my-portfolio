@@ -3,7 +3,88 @@
   justify-content: space-between;
   font-size: 1.5rem;
   padding: 3rem 3rem 0 10rem;
+  
+  @media(min-width:401px) and (max-width: 500px) {
+  padding: 2rem 2rem 1rem 3rem;
+    }
+  
+    @media(min-width:501px) and (max-width: 600px) {
+      padding: 2.2rem 2.2rem 1.2rem 4rem;
+  
+    }
+    @media(min-width:601px) and (max-width: 700px) {
+      padding: 2.4rem 2.4rem 1.5rem 5rem;
+  
+    }
+    @media(min-width:701px) and (max-width: 800px) {
+      padding: 2.6rem 2.6rem 1.6rem 7rem;
+    }
+    @media (min-width:801px) and (max-width: 900px) {
+      padding: 2.8rem 2.8rem 1.8rem 8rem;
+      
+    }
+    @media (min-width:901px) and (max-width: 970px) {
+      padding: 2.9rem 2.9rem 1.9rem 9rem;
+      
+    }
+    @media (min-width:971px) and (max-width: 1250px) {
+      padding: 3rem 3rem 2rem 10rem;
+      
+    }
 }
+/* .left h3 > span {
+  background: linear-gradient(green, yellow, red);
+  -webkit-background-clip: text;
+  color: transparent;
+} */
+/* .left p {
+  font-size: 2rem;
+  margin-top: 1rem;
+  color: rgb(100 116 139);
+  letter-spacing: 0.05rem;
+  text-transform: capitalize;
+  animation-name: moveInBottom;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+
+  @media(min-width:401px) and (max-width: 500px) {
+    font-size: 0.8rem;
+    letter-spacing: 0.02rem;
+  
+    }
+  
+    @media(min-width:501px) and (max-width: 600px) {
+      font-size: 1rem;
+    letter-spacing: 0.03rem;
+  
+    }
+    @media(min-width:601px) and (max-width: 700px) {
+      font-size: 1.5rem;
+    letter-spacing: 0.03rem;
+      
+  
+    }
+    @media(min-width:701px) and (max-width: 800px) {
+      font-size: 1.7rem;
+    letter-spacing: 0.03rem;
+    }
+    @media (min-width:801px) and (max-width: 900px) {
+      font-size: 1.9rem;
+    letter-spacing: 0.04rem;
+      
+    }
+    @media (min-width:901px) and (max-width: 970px) {
+      font-size: 2rem;
+    letter-spacing: 0.05rem;
+      
+    }
+    @media (min-width:971px) and (max-width: 1250px) {
+      font-size: 2rem;
+    letter-spacing: 0.055rem;
+      
+    }
+  
+} */
 .nav ul {
   list-style: none;
   display: flex;
@@ -12,7 +93,6 @@
 .nav a:link,
 .nav a:visited {
   text-decoration: none;
-  
   text-transform: uppercase;
   font-size: 1.5rem;
   font-weight: 600;
@@ -24,6 +104,35 @@
   display: inline-block;
   -webkit-background-clip: text;
   color: transparent;
+
+  @media(min-width:401px) and (max-width: 500px) {
+    font-size: 1.2rem;
+  
+    }
+  
+    @media(min-width:501px) and (max-width: 600px) {
+      font-size: 1.2rem;
+  
+    }
+    @media(min-width:601px) and (max-width: 700px) {
+      font-size: 1.3rem;
+  
+    }
+    @media(min-width:701px) and (max-width: 800px) {
+      font-size: 1.4rem;
+    }
+    @media (min-width:801px) and (max-width: 900px) {
+      font-size: 1.4rem;
+      
+    }
+    @media (min-width:901px) and (max-width: 970px) {
+      font-size: 1.5rem;
+      
+    }
+    @media (min-width:971px) and (max-width: 1250px) {
+      font-size: 1.5rem;
+      
+    }
 }
 .name {
   background-image: linear-gradient(
@@ -35,8 +144,37 @@
   -webkit-background-clip: text;
   color: transparent;
   font-size: 2rem;
-
   font-weight: 600;
+
+  @media(min-width:401px) and (max-width: 500px) {
+    font-size: 1.2rem;
+    /* margin-right: 4rem; */
+  
+    }
+  
+    @media(min-width:501px) and (max-width: 600px) {
+      font-size: 1.4rem;
+  
+    }
+    @media(min-width:601px) and (max-width: 700px) {
+      font-size: 1.6rem;
+  
+    }
+    @media(min-width:701px) and (max-width: 800px) {
+      font-size: 1.7rem;
+    }
+    @media (min-width:801px) and (max-width: 900px) {
+      font-size: 1.8rem;
+      
+    }
+    @media (min-width:901px) and (max-width: 970px) {
+      font-size: 1.9rem;
+      
+    }
+    @media (min-width:971px) and (max-width: 1250px) {
+      font-size: 2rem;
+      
+    }
 }
 
 
@@ -46,6 +184,36 @@
   font-size: inherit;
   list-style: none;
   text-decoration: none;
+
+
+  @media(min-width:401px) and (max-width: 500px) {
+    gap: 3rem;
+  
+    }
+  
+    @media(min-width:501px) and (max-width: 600px) {
+      gap: 3.5rem;
+  
+    }
+    @media(min-width:601px) and (max-width: 700px) {
+      gap: 4rem;
+  
+    }
+    @media(min-width:701px) and (max-width: 800px) {
+      gap: 5rem;
+    }
+    @media (min-width:801px) and (max-width: 900px) {
+      gap: 5.5rem;
+      
+    }
+    @media (min-width:901px) and (max-width: 970px) {
+      gap: 6rem;
+      
+    }
+    @media (min-width:971px) and (max-width: 1250px) {
+      gap: 7rem;
+      
+    }
 }
 
 .nav :global(.active) {
